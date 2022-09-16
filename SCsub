@@ -1,0 +1,11 @@
+Import('env')
+
+env_gkinect = env.Clone()
+
+env_gkinect.add_source_files(env.modules_sources, "*.cpp")
+
+env_gkinect.Append(CPPPATH=["C:/Program Files/Microsoft SDKs/Kinect/v2.0_1409/inc"])
+
+#env_gkinect.Append(LIBPATH=["C:/Program Files/Microsoft SDKs/Kinect/v2.0_1409/Lib/x64"])
+
+env.Append(LINKFLAGS=["C:/Program Files/Microsoft SDKs/Kinect/v2.0_1409/Lib/x64/Kinect20.lib"])
