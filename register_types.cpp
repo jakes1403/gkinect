@@ -11,6 +11,10 @@ void register_gkinect_types() {
 
     GKinectPtr = memnew(GKinect);
     Engine::get_singleton()->add_singleton(Engine::Singleton("GKinect", GKinect::get_singleton()));
+
+    #ifdef TOOLS_ENABLED
+    EditorPlugins::add_by_type<GKinectEditorPlugin>();
+    #endif
 }
 
 void unregister_gkinect_types() {

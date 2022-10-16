@@ -1,6 +1,12 @@
 {
     "C_Cpp.default.includePath": [
+        "C:\\Users\\acm\\Documents\\Godot Source\\godot",
         "C:\\Users\\MSU\\Documents\\Projects\\godot-3.5-stable",
-        "C:\\Program Files\\Microsoft SDKs\\Kinect\\v2.0_1409\\inc\\"
-    ]
+        "C:\\Program Files\\Microsoft SDKs\\Kinect\\v2.0_1409\\inc\\",
+        "C:\\Users\\jakes\\Documents\\GodotSource\\godot-3.5-stable"
+    ],
+    "files.associations": {
+        "xstring": "cpp",
+        "vector": "cpp"
+    }
 }
